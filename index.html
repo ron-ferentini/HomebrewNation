@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Homebrew Nation</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: var(--bs-gray-500);">
+        <div class="container pb-3 px-4 px-lg-5">
+            <a class="navbar-brand">Homebrew Nation</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="shop.html">Shop All Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-outline-dark" type="submit">
+                        <a href="cart.html"></a>
+                        <i class="bi-cart-fill me-1"></i>
+                        Cart
+                        <span id="cart-counter" class="badge text-white ms-1 rounded-pill"
+                            style="background-color: var(--bs-red);">0</span>
+                        
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header-->
+    <header class="fixed bg-dark py-3 mt-5">
+        <div class="d-flex align-items-center justify-content-around">
+            <div class="p4 mt-4">
+                <img src="img/homebrew-beer.jpg" alt="Logo" class="img-fluid me-4" style="height:100x;">
+            </div>
+            <div class="text-center text-white">
+                <h1 class="display-4 fw-bolder">Shop Homebrew Beer kits</h1>
+                <p class="lead fw-normal text-white-50 mb-0">
+                    Everything you need to brew your own delicious beer at home.
+                </p>
+                <p class="lead fw-normal text-white-50 mb-0">
+                    Each kit comes with all the grain, hops and yeast needed.
+                </p>
+                <p class="lead fw-normal text-white-50 mb-0">
+                    Brewing instructions included with every kit!
+                </p>
+                <p class="lead fw-normal text-white-50 mb-0">
+                    Kits require additional brewing equipment.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container px-4 px-lg-5 mt-5">
+            <h4>Featured Beer Kits:</h4>
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
+                            Sale
+                        </div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="img/obi_ron.webp" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">OBI RON'S Wheat</h5>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">$45.00</span>
+                                <span>$39.99</span>
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" id="button1" value="1">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
+                            Sale
+                        </div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="img/Sunny-Side-Grapefruit-Radler.webp" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Sunny side Grapefuit Radler</h5>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">$55.00</span>
+                                <span>$39.99</span>
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" id="button2" value="2">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
+                            Sale
+                        </div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="img/kolsch.webp" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Kolsch</h5>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">$38.00</span>
+                                <span>$29.99</span>
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" id="button3" value="3">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
+                            Sale
+                        </div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="img/blonde_ale.webp" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">American Blonde Ale</h5>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">$32.00</span>
+                                <span>$32.00</span>
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" id="button4" value="4">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid site-footer">
+            <p class="text-center">Homebrew Nation &copy 2025. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+:root {
+   --bs-red: #dc3545;
+   --bs-link-color: #0d6efd;
+   --bs-link-hover-color: #0a58ca;
+   --bs-gray-500: #868c92;
+   --bs-dark-blue: #72abec;
+}
+
+a {
+   color: var(--bs-link-color);
+   text-decoration: underline;
+}
+
+a:hover {
+   color: var(--bs-link-hover-color);
+}
+
+#center-container {
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.content {
+   position: relative;
+   max-width: 1000px;
+   padding: 40px 32px;
+   background: rgba(255, 255, 255, 0.92);
+   border-radius: 14px;
+   box-shadow: 10px 9px 0px 0px rgba(0, 0, 0, 1);
+   border: solid black;
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+
+#about_header {
+   margin-top: 0px;
+   color: #2a4d2e;
+   font-size: 2.6em;
+}
+
+#about_p {
+   color: #333;
+   font-size: 1.25em;
+   line-height: 1.6;
+}
+
+.about {
+   color: rgb(87, 141, 16);
+}
+
+a:not([href]):not([class]),
+a:not([href]):not([class]):hover {
+   color: inherit;
+   text-decoration: none;
+}
+
+.contact-form {
+   background: var(--bs-gray-500);
+   padding: 24px 32px 32px 32px;
+   max-width: 420px;
+   margin: 0 auto;
+   border-radius: 8px;
+   box-shadow: 0 0 14px rgba(0, 0, 0, 0.822);
+   margin-top: 100px;
+   justify-content: center;
+}
+
+.form-row {
+   display: flex;
+   gap: 12px;
+   margin-bottom: 18px;
+}
+
+.form-row input {
+   flex: 1;
+}
+
+label {
+   display: block;
+   margin-bottom: 6px;
+   font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+   width: 100%;
+   padding: 9px 10px;
+   margin-bottom: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 15px;
+}
+
+textarea {
+   resize: vertical;
+   min-height: 80px;
+}
+
+
+.site-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--bs-gray-500);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+
+.contact-button {
+    background-color: var(--bs-dark-blue);
+    padding: 12px;
+    border-radius: 8px;
+    border-width: 6px;
+    border-color: var(--bs-dark-blue);
+    justify-content: center;
+}
+
+.cart-content {
+   position:relative;
+   max-width: 1000px;
+   padding: 24px 32px 32px 32px;
+   border-radius: 8px;
+   box-shadow: 0 0 14px rgba(0, 0, 0, 0.822);
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
