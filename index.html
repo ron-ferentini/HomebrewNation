@@ -33,13 +33,11 @@
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
                 <form class="d-flex">
-                    <button class="btn btn-outline-dark" type="submit">
-                        <a href="cart.html"></a>
+                    <button class="btn btn-outline-dark" type="submit" onclick="location.href = 'cart.html'" >
                         <i class="bi-cart-fill me-1"></i>
                         Cart
                         <span id="cart-counter" class="badge text-white ms-1 rounded-pill"
                             style="background-color: var(--bs-red);">0</span>
-                        
                     </button>
                 </form>
             </div>
@@ -50,7 +48,7 @@
     <header class="fixed bg-dark py-3 mt-5">
         <div class="d-flex align-items-center justify-content-around">
             <div class="p4 mt-4">
-                <img src="img/homebrew-beer.jpg" alt="Logo" class="img-fluid me-4" style="height:100x;">
+                <img src="img/homebrew-beer.jpg" alt="Logo" class="img-fluid me-4" style="height:220px;">
             </div>
             <div class="text-center text-white">
                 <h1 class="display-4 fw-bolder">Shop Homebrew Beer kits</h1>
@@ -188,7 +186,7 @@
         </div>
     </footer>
 
-    <script src="js/script.js" defer></script>
+    <script src="js/script.js"></script>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
