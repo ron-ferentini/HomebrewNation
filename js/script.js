@@ -19,8 +19,9 @@ const sendButton6 = document.getElementById("button6");
 const sendButton7 = document.getElementById("button7");
 const sendButton8 = document.getElementById("button8");
 
-function handleSend1() {
+function handleSend() {
   const itemid = sendButton1.value;
+  console.log("itemid: " + itemid);
   for (let i = 0; i < items.length; i++) {
     for (let j = 0; j < items[i].length; j++) {
       if (itemid === items[i][j]) {
@@ -30,82 +31,8 @@ function handleSend1() {
   }
 }
 
-function handleSend2() {
-  const itemid = sendButton2.value;
-  for (let i = 0; i < items.length; i++) {
-    for (let j = 0; j < items[i].length; j++) {
-      if (itemid === items[i][j]) {
-        addCartItem(itemid);
-      }
-    }
-  }
-}
 
-function handleSend3() {
-  const itemid = sendButton3.value;
-  for (let i = 0; i < items.length; i++) {
-    for (let j = 0; j < items[i].length; j++) {
-      if (itemid === items[i][j]) {
-        addCartItem(itemid);
-      }
-    }
-  }
-}
-
-function handleSend4() {
-  const itemid = sendButton4.value;
-  for (let i = 0; i < items.length; i++) {
-    for (let j = 0; j < items[i].length; j++) {
-      if (itemid === items[i][j]) {
-        addCartItem(itemid);
-      }
-    }
-  }
-}
-
-function handleSend5() {
-  const itemid = sendButton5.value;
-  for (let i = 0; i < items.length; i++) {
-    for (let j = 0; j < items[i].length; j++) {
-      if (itemid === items[i][j]) {
-        addCartItem(itemid);
-      }
-    }
-  }
-}
-
-function handleSend6() {
-  const itemid = sendButton6.value;
-  for (let i = 0; i < items.length; i++) {
-    for (let j = 0; j < items[i].length; j++) {
-      if (itemid === items[i][j]) {
-        addCartItem(itemid);
-      }
-    }
-  }
-}
-
-function handleSend7() {
-  const itemid = sendButton7.value;
-  for (let i = 0; i < items.length; i++) {
-    for (let j = 0; j < items[i].length; j++) {
-      if (itemid === items[i][j]) {
-        addCartItem(itemid);
-      }
-    }
-  }
-}
-
-function handleSend8() {
-  const itemid = sendButton8.value;
-  for (let i = 0; i < items.length; i++) {
-    for (let j = 0; j < items[i].length; j++) {
-      if (itemid === items[i][j]) {
-        addCartItem(itemid);
-      }
-    }
-  }
-}
+sendButton1.addEventListener("click", handleSend);
 
 // Validate that the email address entered on the contact form is validate form
 function validateEmail(email) {
